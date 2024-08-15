@@ -236,21 +236,19 @@ margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 60px;
-    border-color: #222222;
     padding-top: 20px;
     
 }
 .left-run{
     width: 40%;
-    border: 2px solid green;
+    
 }
 .right-run{
     width: 40%;
-    border: 2px solid blue;
+    
 }
 .right-run img{
     width: 100%;
@@ -277,4 +275,34 @@ font-weight: 400;
     font-size: 18px;
     font-weight: 600;
 
+}
+
+
+/* input section here */
+.input-main{
+    margin-bottom: 00px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.input-left{
+width: 40%;
+}
+.input-right{
+width: 40%;
+}
+
+.table, th,td{
+    border: 1px solid red;
+}
+.input-1,.input-2,.input-3,.input-4,.input-5{
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+.input-5{
+    padding-right: 210px;
 }
