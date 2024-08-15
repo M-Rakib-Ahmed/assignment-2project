@@ -230,3 +230,24 @@ margin-top: 50px;
     margin-top: 30px;
     
 }
+
+/*  Run an extra section style here */
+.main-run{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.left-run{
+    width: 50%;
+    border: 2px solid green;
+}
+.right-run{
+    width: 50%;
+    border: 2px solid blue;
+}
+.right-run img{
+    width: 100%;
+}
