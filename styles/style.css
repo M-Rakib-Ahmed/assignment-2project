@@ -199,17 +199,24 @@ color: rgba(255, 255, 255, 0.5);
 
 
 /* change your habits section */
+.sobarbap{
+    background-color:#000000 ;
+}
 .change{
     text-align: center;
+    
+    padding-top: 100px;
 }
 .changeh{
     font-size: 48px;
     font-weight: 900;
-    color: #000;
+    color:white;
 }
 .hcangep{
+    color: #FFFFFF80;
     font-size: 14px;
-font-weight: 400;
+    font-weight: 400px;
+    
 }
 .change-image{
     text-align: center;
@@ -233,6 +240,9 @@ margin-top: 50px;
 
 /*  Run an extra section style here */
 .main-run{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -240,6 +250,11 @@ margin-top: 50px;
     margin: 0 auto;
     margin-top: 60px;
     padding-top: 20px;
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
     
 }
 .left-run{
@@ -257,11 +272,12 @@ margin-top: 50px;
 .run-text{
     font-size: 48px;
     font-weight: 900;  
-    color: ;
+    color:white ;
 }
 .runp-text{
     font-size: 14px;
 font-weight: 400;
+color: aliceblue;
 }
 .run-button{
     padding: 10px;
@@ -279,7 +295,35 @@ font-weight: 400;
 
 
 /* input section here */
+.bmtop{
+    color: white;
+    text-align: start;
+    padding-top: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.cal{
+    font-size: 48px;
+    font-weight: 900; 
+}
+.chu{
+    font-size: 14px;
+    font-weight: 400; 
+    color: #FFFFFF80;
+}
+
+.shadow{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+
 .input-main{
+    
     margin-bottom: 00px;
     display: flex;
     justify-content: space-between;
@@ -287,6 +331,7 @@ font-weight: 400;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 50px;
+    
 }
 .input-left{
 width: 40%;
@@ -301,13 +346,14 @@ width: 40%;
 }
 
 .table, th,td{
-    border: 1px solid red;
+    border: 1px solid white;
     padding: 10px;
     margin-top: 50px;
     border-collapse: collapse;
     text-align: center;
     font-size: 14px;
 font-weight: 400;
+color: white;
 
 }
 .bm{
@@ -324,13 +370,55 @@ font-weight: 400;
     padding-right: 210px;
 }
 
-.main-meetour{
-    border: 2px solid red;
-}
+/* Meet Our Team */
 .meet-top{
-    border: 2px solid green;
-
+    text-align: center;
+    margin-top: 100px;
 }
-.meet-bottom{
-    border: 2px solid blue;
+.meetour{
+font-size: 48px;
+font-weight: 900;
+color: #FFFFFF;
+}
+.teamour{
+font-size: 14px;
+font-weight: 400;
+color:#FFFFFF80
+;
+}
+.team-image{
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    
+}
+.tainer{
+    position: absolute;
+    left: 450px;
+    margin-top: 150px;
+    color: white;
+    
+}
+.tainer-2{
+    position: absolute;
+    left: 450px;
+    margin-top: 150px;
+    color: white;   
+}
+
+.team-image img{
+    width: 200px;
+}
+
+/* footer style here */
+.footer-left{
+    
 }
