@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Inter font here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Grey+Qo&display=swap');
+
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 100px;
+    font-style: italic;
+  }
+  
+  
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  /* Inter font end */
+
+/* nav style start here */
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.nav-left{
+   
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding-right: 10px;
+
+}
+/* fitness text style here */
+.fitness{
+    color: #E6533C;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+.p-tag, .p-tag-fitness{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+     
+}
+.p-tag-fitness{
+   background-color:#E6533C ;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.main-container{
+    padding-top: 40px;
+    background-color: #202020;
+}
+.getbody-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    
+}
+.body-left{
+    width: 40%;
+    
+}
+.body-right{
+    width: 40%;
+}
+
+.body-images{
+    position: relative;
+}
+
+
+.div550{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 30px;
+right: 180px;
+top: 200px;
+margin-right: 70px;
+margin-top: 50px;
+position: absolute;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+}
+
+.h-350{
+ font-size: 24px;
+font-weight: 900;
+color: white;
+}
+.video{
+    color: #FFFFFFA6; 
+}
+
+.text-550{
+font-size: 40px;
+font-weight: 900;
+color: white;
+}
+.free{
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFFA6;
+}
+
+
+
+
+
+.goal-main{
+    
+    bottom: 16% ;
+    
+    margin-left: -80px;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 30px;
+   width: 200px; 
+   height:100px ;
+display: flex;
+gap: 20px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+}
+
+
+.goal{
+    height: 30px;
+    width: 30px;
+   border-radius: 50%;
+    background-color: red;
+}
+.goal-right{
+
+}
+
+
+
+
+
+
+.geath-text{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+.geatp-text{
+font-size: 16px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+}
+.btn-1{
+    margin-right: 15px;
+   padding: 10px 20px;
+   border: none;
+   background-color: #E6533C;
+   border-radius:40px ;
+   color: white;
+   font-size: 16px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.btn-2{
+    font-size: 16px;
+    font-weight: 500; 
+    padding: 10px 20px;
+    border-radius:40px ;
+    color: white;
+    border: 1px solid white;
+    background-color: #202020;
+}
+
+
+/* change your habits section */
+.change{
+    text-align: center;
+}
+.changeh{
+    font-size: 48px;
+    font-weight: 900;
+    color: #000;
+}
+.hcangep{
+    font-size: 14px;
+font-weight: 400;
+}
+.change-image{
+    text-align: center;
+   
+}
+.change-image img{
+border-radius: 50%;
+margin-right: 50px;
+margin-top: 50px;
+}
+.movement{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    
+}
