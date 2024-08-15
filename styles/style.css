@@ -239,15 +239,42 @@ margin-top: 50px;
     border: 2px solid red;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 60px;
+    border-color: #222222;
+    padding-top: 20px;
+    
 }
 .left-run{
-    width: 50%;
+    width: 40%;
     border: 2px solid green;
 }
 .right-run{
-    width: 50%;
+    width: 40%;
     border: 2px solid blue;
 }
 .right-run img{
     width: 100%;
+}
+
+.run-text{
+    font-size: 48px;
+    font-weight: 900;  
+    color: ;
+}
+.runp-text{
+    font-size: 14px;
+font-weight: 400;
+}
+.run-button{
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 30px;
+    border-radius: 40px;
+    border: none;
+    background-color: #E6533C;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+
 }
